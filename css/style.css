@@ -1,0 +1,827 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100vw;
+    height: 120px;
+    top: 0;
+    position: fixed;
+    background-color: rgb(13, 100, 250);
+    /* opacity: 0.8; */
+    z-index: 10;
+}
+.imge-logo-header{
+    position: absolute;
+}
+.h2-logo{
+    display: inline;
+    color: white;
+    font-size: 23px;
+}
+.logo{
+    margin-top: 18px;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    float: left;
+   
+}
+.logo:hover{
+    background-color:rgb(6, 26, 242) ;
+}
+.dep-ser{
+    float: left;
+    margin-top: 18;
+    
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 30px;
+
+}
+.dep{
+   color: white;
+   font-size: 18px;
+   text-decoration: none;
+  
+}
+.dep-ser:hover{
+    background-color:rgb(6, 26, 242) ;
+}
+.depp{
+  font-size: 15px;
+}
+.div-serche{
+    background-color: white;
+    width: 700px;
+    height: 35px;
+    float: left;
+    margin-top: 22px;
+    border-radius: 20px;
+}
+.serr{
+    margin-top: 2;
+    padding: 8px 9px;
+    margin-left: 666px;
+    background-color: rgb(255, 242, 0);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.in-serche{
+    margin-top: -26;
+    margin-left: 10px;
+    width: 645px;
+    height: 25;
+    border: none;
+    font-size: 15px;
+}
+.bt-record{
+    width: 115px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color:  rgb(13, 100, 250);
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 15px;
+    color: white;
+}
+.bt-record:hover{
+    background-color: rgb(6, 26, 242)  ;
+}
+.h3-header{
+    padding-left: 15px;
+}
+.price{
+    font-size: 15px;
+}
+.add{
+    font-size: 15px;
+   
+}
+.add-to{
+    margin-left: 0px;
+}
+.delevry{
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.link-delevery{
+    display: block;
+    margin-top: -30px;
+    margin-left: 70px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.line{
+    width: 1px;
+    height: 30px;
+    border: 1px solid white;
+    margin-left: 290;
+    margin-top: -25px;
+}
+.map{
+    margin-left: 300px;
+    margin-top: -22px;
+    color: white;
+}
+.fax{
+    margin-left: 320px;
+    margin-top: -22px;
+    color: white;
+}
+.house{
+    margin-left: 455px;
+    margin-top: -19px;
+    color: white;
+}
+.sacr{
+    margin-left: 485px;
+    margin-top: -20px;
+    color: white;
+}
+
+.lll{
+    /* display: block; */
+    margin-left: 18px;
+    color: white;
+    text-decoration: none;
+}
+.lll:hover{
+    text-decoration: underline;
+}
+.filll{
+    margin-left: 655px;
+}
+.aaa{
+    margin-top: -20px;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* ************************************* first page ******************************************************** */
+.parent1{
+    display: grid;
+    grid-auto-rows: minmax(230px , auto);
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 121px;
+}
+.div1{
+    background-color: blue;
+    margin: 10px 10px;
+    border-radius: 20px;
+}
+.first-div{
+    background-image: url(../images/corr_409_koo_409177.jpg);
+    background-size: cover;
+
+}
+.sport{
+    color: rgb(31, 18, 83);
+    margin-left: 15px;
+    margin-top: 7px;
+    font-size: 23px;
+}
+.bt-sport{
+    display: block;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+.scound-div{
+    background-image: url(../images/samsung-odyssey-g9-1.jpg);
+    background-size: cover; 
+    grid-column: 2/4;
+    grid-row: 1/ 3;
+
+}
+.sum{
+    margin-top: 7px;
+    margin-left: 30px;
+    font-size: 50px;
+    color: rgb(54, 54, 111);
+    /* display: block; */
+    /* visibility: hidden; */
+    
+}
+.bt-sums{
+    width: 90px;
+    height: 27px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border: none;
+    background-color: aquamarine;
+}
+.bt-sums:hover{
+    border: 3px solid black;
+  
+}
+.third-div{
+    background-image: url(../images/صور-نجف-كريستال-دهبي-مميز-2.jpg);
+    background-size: cover;
+}
+.decor{
+    color: white;
+    margin-top: 23px;
+    margin-left: 10px;
+    font-size: 23px;
+}
+.dec{
+    /* color: white; */
+    display: block;
+    margin-top: 13px;
+    margin-left: 20px;
+    color: aquamarine;
+}
+.forth{
+    grid-row: 2/4;
+    background-image: url(../images/living-room-designs-indian-style-low-budget.jpg);
+    background-size: cover;
+}
+.matt , .living{
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 30px;
+    color: rgb(33, 33, 97);
+}
+.matt{
+    margin-top: 20px;
+}
+.live{
+    display: block;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.five{
+    grid-row: 2/4;
+    background-image: url(../images/7styleBudget.jpg);
+    background-size: cover;
+}
+
+.wear , .bud{
+margin-left: 15px;
+color: white;
+margin-top: 5px;
+font-size: 25px;
+}
+.wear{
+    margin-top: 20px;
+}
+.wears{
+    display: block;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.six{
+   background-image: url(../images/5-موديلات-لاب-توب-مناسبة-للأطفال-للدراسة-الأون-لاين.jpg);
+   background-size: cover;
+}
+.lab{
+    /* color: rgb(33, 33, 97); */
+    /* color: white; */
+  margin-top: 7px;
+  margin-left: 10px;
+  font-size: 25px;
+}
+.la{
+color: white;
+display: block;
+margin-left: 15px;
+margin-top: 30px;
+}
+.seven{
+background-image: url(../images/download.jfif);
+background-size: cover;
+}
+.iphon{
+    font-size: 25px;
+}
+.iph{
+    display: block;
+    margin-top: 40px;
+}
+.eight{
+    background-image: url(../images/88A7B9-A784A7B7A8A782-A78485B3AAAEAF85A9-AFA7AE84-A784858A83B1888A81.jpg);
+    background-size: cover;
+
+}
+.ham{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 30px;
+    color: rgb(238, 11, 11);
+}
+.hami{
+    display: block;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.nine{
+    grid-column: 2/4;
+    background-image: url(../images/images\ \(1\).jfif);
+    background-size: cover;
+}
+.try{
+    margin-left: 450px;
+    margin-top: 10px;
+    font-size: 40px;
+    /* color: rgb(43, 43, 148); */
+}
+.trry{
+    margin-top: 5px;
+    margin-left: 500px;
+    font-size: 30px;
+    /* color: rgb(43, 43, 148); */
+}
+.jo{
+    display: block;
+    margin-top: 60px;
+    margin-left: 370px;
+}
+.ten{
+background: -webkit-radial-gradient(0% 10%, circle , yellow ,yellow,rgb(244, 128, 128));
+}
+.we{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 28px;
+}
+.wee{
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.week , .weekl{
+margin-left: 180px;
+font-size: 50px;
+}
+.week{
+    margin-top: 10px;
+}
+.weekl{
+    margin-left: 200px;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* ******************************************* scound section******************************************************** */
+.scuond-section{
+    width: 100vw;
+    height: 80vh;
+}
+.title1{
+    margin-left: 40vw;
+    margin-top: 40px;
+    /* border: 2px solid red; */
+    width: 330px;
+    height: 60px;
+}
+.style1{
+    width: 75px;
+    height: 3px;
+    background-color: rgb(79, 79, 253);
+    margin-left: 100px;
+    margin-top: 4px;
+    transition: 1s;
+
+}
+.title1:hover .style1{
+    transform: scale( 2 , 1);
+}
+.titlee1{
+    font-size: 40px;
+}
+.category-item{
+    width: 300;
+    height: 420;
+    /* background-color: red; */
+    margin-left: 70px;
+    float: left;
+    margin-top: 60px;
+}
+.item1{
+    
+}
+.dis{
+    margin-top: 10px;
+    color: rgb(166, 163, 163);
+    margin-left: 15px;
+}
+.char-neme{
+    margin-top: 10px    ;
+    margin-left: 15px;
+}
+.div-sign{
+    margin-left: 265px;
+    margin-top: 20px;
+    background-color:brown;
+    /* background-color: rgb(142, 142, 245); */
+    width: 25px;
+    height: 35px;
+    visibility: hidden;
+}
+.h1-sign{
+    margin-left: 2px;
+    font-size: 40px;
+    color: white;
+}
+.category-banner{
+    border-radius: 150px;
+}
+.category-item:hover .div-sign{
+    visibility: visible;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* ********************************** Third section**************************************************************** */
+.section-three{
+    width: 100vw;
+    height: 80vh;
+}
+.div-block{
+    width: 100vw;
+    height: 50vh;
+}
+.div-paragraph{
+    width: 650px;
+    height: 350px;
+    background-color: rgb(243, 238, 238);
+    margin-left: 80px;
+    float: left;
+}
+.div-dis{
+    width: 310px;
+    height: 350px;
+    background-image: url(../images/cms-banner-1.jpg);
+    background-size: cover;
+    float: left;
+    margin-left: 70px;
+    transition: 1s;
+}
+.divv-dis{
+    width: 310px;
+    height: 350px;
+    background-image: url(../images/cms-banner-2.jpg);
+    background-size: cover;
+    float: left;
+    margin-left: 70px;
+    transition: 1s;
+}
+.p-disccount{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.h3-discount{
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+.div-dis:hover{
+    transform: scale(1.1,1.1);
+}
+.divv-dis:hover{
+    transform: scale(1.1,1.1);
+}
+.coma{
+    font-size: 100px;
+    color: brown;
+    margin-left: 10px;
+    /* margin-top: -10px; */
+}
+.h3-coma{
+    margin-top: -110px;
+    margin-left: 60px;
+    font-size: 30px;
+}
+.p-coma{
+    margin-left: 120px;
+    font-size: 20px;
+    color: rgb(100, 99, 99);
+}
+.par{
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 24px;
+}
+.shapes{
+    display: flex;
+    margin-left: 60px;
+}
+.shapes-number{
+    flex:1;
+    text-align: center;
+    border-right: 1px solid rgb(166, 164, 164);
+    margin-top: 10;
+    height: 150px;
+}
+.shape-info{
+    margin-top: 0px;
+}
+.shapes-number:last-child{
+    border: 0;
+}
+.shape-icon{
+    background-image: url(../images/service-icon.png);
+    height: 55px;
+    background-repeat: no-repeat;
+    margin-left: 16px;
+    margin-top: 40px;
+}
+.shape-1{
+    background-position: center 0px ;
+    transition: 1s;
+}
+.shapes-number:hover .shape-1{
+    background-position: center -86px;
+}
+.shape-2{
+    background-position: center -180px;
+    transition: 1s;
+}
+.shapes-number:hover .shape-2{
+    background-position: center -273px;
+}
+.shape-3{
+    background-position: center -366px;
+    transition: 1s;
+}
+.shapes-number:hover .shape-3{
+    background-position:center -460px ;
+}
+.shape-4{
+    background-position: center -550px;
+    transition: 1s;
+}
+.shapes-number:hover .shape-4{
+    background-position:center -640px ;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* ************************************** forth section ************************************************************* */
+.div-forth{
+    width: 100vw;
+    height: 75vh;
+}
+.fo{
+    margin-top: 10px;
+}
+.product-info{
+    width: 300px;
+    height: 460px;
+    /* background-color: brown; */
+    margin-top: 40px;
+    margin-left: 100px;
+    float: left;
+}
+.product-picture , .front , .back{
+    width: 300px;
+    height: 350px;
+    background-color: aqua;
+    transition: 1s;
+}
+.front{
+    background-image: url(../images/chair4.jpg);
+    background-size: cover;
+}
+.back{
+    background-image: url(../images/chair3.jpg);
+    background-size: cover;
+}
+.product-picture{
+    position: relative;
+    transform-style: preserve-3d;
+}
+.front , .back{
+    position: absolute;
+}
+.front{
+    z-index: 1;
+    backface-visibility: hidden;
+}
+.product-picture:hover{
+  transform: rotateY(180deg);
+}
+.back{
+    transform: rotateY(180deg);
+}
+.fi-1{
+    margin-left: 200px;
+    
+}
+.footer-links{
+    list-style: none;
+    margin: 0px 50px;
+    margin-left: 65px;
+}
+.footer-links li{
+    display: inline-block;
+    background-color: #6195ff;
+    width:50px;
+    height: 50px;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 180px;
+    
+}
+.footer-links li a{
+    display: block;
+    width:100%;
+    height: 100%;
+    color: #fff;
+    line-height: 50px;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 23px;
+    margin: 0 8px;
+}
+.staar{
+    margin-top: 30px;
+    color: yellow;
+}
+.front2{
+    background-image: url(../images/chair5.jpg);
+    background-size: cover;
+}
+.back2{
+    background-image: url(../images/chair2.jpg);
+    background-size: cover;
+}
+.front3{
+    background-image: url(../images/chair6.jpg);
+    background-size: cover;
+}
+.back3{
+    background-image: url(../images/chair1.jpg);
+    background-size: cover;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* ************************************** fifth section ************************************************************* */
+.div-fifth{
+    width: 100vw;
+    height: 85vh;
+}
+.video-1{
+    margin-left: 55px;
+    margin-top: 50px;
+}
+.fifth-one{
+    width: 250px;
+    height: 500;
+    /* background-color: blue; */
+    float: left;
+    margin-top: 50px;
+
+}
+.fifth-tow{
+    width: 250px;
+    height: 500;
+    /* background-color: blue; */
+    float: left;
+    margin-left: 40px;
+    margin-top: 50px;
+
+}
+.gift-1{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.h-gift{
+    margin-left: 10px;
+}
+.gift-2{
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgb(121, 121, 239);
+    border-radius: 25px;
+    width: 90px;
+    height: 30px;
+}
+.gift-2:hover{
+    border:3px solid black;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* ************************************** six section ********************************************************** */
+.parent3{
+    display: grid;
+    grid-auto-rows: minmax(200px , auto);
+    grid-template-columns: repeat(6,1fr);
+    
+
+}
+.div{
+    margin: 10px 10px;
+    background-color: blue;
+    border-radius: 20px;
+}
+.div3{
+    background-image: url(../images/85b3523a-8a9b-42de-a7de-58987f95f009.jfif);
+    background-size: cover;
+    grid-column: 3/6;
+    grid-row: 1/3;
+}
+.div1-1{
+    background-image: url(../images/91a75b17-2361-436b-b998-48e39dc2d29a.jfif);
+    background-size: cover;
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+.div2{
+    background-image: url(../images/eb8063c6-5739-4873-9281-f6ef13915070.jfif);
+    background-size: cover;
+    grid-row: 1/4;
+}
+.div4{
+    background-image: url(../images/afaf7743-cf49-447d-893a-7472d1758d96.jfif);
+    background-size: cover;
+}
+.div5{
+    background-image: url(../images/54c9fce7-7f68-4af5-9d86-4b1c823d8d5b.jfif);
+    background-size: cover;
+}
+.div6{
+    background-image: url(../images/9fa2cd0e-a640-405b-a25c-4fd3066b9013.jfif);
+    background-size: cover;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* ********************************** siven section **************************************************************** */
+.parent4{
+    display: grid;
+    grid-auto-rows: minmax(550px , auto);
+    grid-template-columns: repeat(5,1fr);
+
+}
+.divp1{
+    margin: 10px 10px;
+    margin-top: 40px;
+}
+.butt_pp{
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.butt_pp:hover{
+    border: 3px solid black;
+}
+.footer{
+    width: 100vw;
+    height: 400px;
+    background-color: #d7e1f6;
+    margin-top: 70px;
+}
+.h3-footer{
+   margin-left: 600px;
+   padding-top: 70px;
+   font-size: 18px;
+}
+.butt-foo{
+    width: 180px;
+    height: 40px;
+    margin-left: 640px;
+    margin-top: 35px;
+    border-radius: 40px;
+    font-size: 18px;
+}
+.butt-foo:hover{
+    border: 3px solid black;
+}
+.div_footer{
+    width: 100vw;
+    height: 190px;
+    background-color: #0c59f4;
+    margin-top: 30px;
+}
+.a-footer{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    
+}
+.a-footer1{
+    margin-left: 210px;
+}
+.a-foter{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.a-foter1{
+    margin-left: 350px;
+}
+.p-foter{
+    color: white;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+
+
+
